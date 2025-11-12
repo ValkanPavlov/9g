@@ -16,8 +16,8 @@ int main() {
                 if (*first==*second) goto tie;
                 else if (*first=='r'&&*second=='p')
                 {
-                        if (i) goto lose;
-                        goto win;
+                        if (i) goto win;
+                        goto lose;
                 }
                 else if (*first=='r'&&*second=='s')
                 {
